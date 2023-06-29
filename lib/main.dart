@@ -95,11 +95,7 @@ class _HomePageState extends State<HomePage> {
     ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
       content: Text("Contact Deleted Successfully"),
       elevation: BorderSide.strokeAlignOutside,
-      // width: 280.0, // Width of the SnackBar.
-      // padding: EdgeInsets.symmetric(
-      //   horizontal: 14.0, // Inner padding for SnackBar content.
-      // ),
-      // behavior: SnackBarBehavior.floating,
+     
     ));
   }
 
